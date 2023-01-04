@@ -5,7 +5,7 @@ class Database {
         if (is_null($DBH)) {              
 		$connection = mysqli_init();
             		mysqli_ssl_set($connection,NULL,NULL, "/var/www/html/BaltimoreCyberTrustRoot.crt.pem", NULL, NULL);
-             		mysqli_real_connect($connection, "mav-server.mysql.database.azure.com", "mysqladmin@mav-server", "Bambam12", "helpdesk_system", 3306);			
+             		mysqli_real_connect($connection, "mav-server.mysql.database.azure.com", "username", "password", "helpdesk_system", 3306);			
 			if($connection->connect_error){
 				die("Error failed to connect to MySQL: " . $connection->connect_error);
 			} else {
