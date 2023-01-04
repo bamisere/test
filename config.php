@@ -1,6 +1,6 @@
 <?php
-$host = "mav-server.mysql.database.azure.com";
-$username = "mysqladmin@mav-server";
-$password = "Bambam12";
-$database = "helpdesk_system";
+$host = "";
+$username = "";
+$password = "";
+$database = "";
 $port = 3306
